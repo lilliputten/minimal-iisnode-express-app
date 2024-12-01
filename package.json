@@ -1,0 +1,19 @@
+{
+  "name": "minimal-iisnode-express-app",
+  "version": "0.0.0",
+  "changed": "2024.12.01, 04:02",
+  "description": "The minimal template for IIS iisnode web application.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
